@@ -21,6 +21,7 @@ body{
 }
 .header__profile-photo-box{
     border-radius: 50%;
+    border: 2px solid white;
     background: linear-gradient(180deg, rgba(206, 241, 241, 0.9) 0%, rgb(112, 113, 167) 100%);
     width: 40%;
     position: absolute;    
