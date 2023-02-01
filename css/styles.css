@@ -1,0 +1,102 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    background-color: rgb(226, 247, 248);
+}
+.index{
+
+}
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+}
+.header__background{
+    top: -5px;
+    position: relative;
+    width: 104%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.header__profile-photo-box{
+    border-radius: 50%;
+    background: linear-gradient(180deg, rgba(206, 241, 241, 0.9) 0%, rgb(112, 113, 167) 100%);
+    width: 40%;
+    position: absolute;    
+    top: 40px;
+}
+.header__profile-photo{
+    width: 100%;
+    border-radius: 50%;
+    position: relative;
+    bottom: -4px;    
+}
+.index__main{
+    padding: 80px 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.index__title{
+    text-transform: capitalize;
+}
+hr{
+    margin: 0;
+    width: 90%;
+}
+.index__main--tags{
+    text-align: center;
+}
+.index__main--about-box{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.index__main--about{
+    padding: 10px 0;
+    text-align: center;
+    display: flex;
+}
+.index__main__section-desplegables{
+
+}
+.index__main__section__div--desplegable-box{
+
+}
+.index__main__section__div--desplegable-title{
+    text-align: center;
+
+}
+.index__main__section__div__article--datos{
+    display: none;
+    border: 1px solid ;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.index__main__section__div__article--formacion{
+
+}
+
+.index__main__section__div__article--experiencia{
+
+}
+@media (min-width: 768px){
+    .header{
+        top: -80px;
+    }
+    .header__profile-photo-box{
+        width: 25%;
+        top: 140px;
+        left: 20px;
+    }
+    .index__main{
+        position: relative;
+        top: -50px;
+        padding: 0;
+    }
+}
+@media (min-width: 1024px){
+
+}
