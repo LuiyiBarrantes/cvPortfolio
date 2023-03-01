@@ -121,8 +121,8 @@ button{
        justify-content: center;
        
     }
-    .index__main__section__div--desplegable-box{
-        
+    .index__main__section__div--desplegable-title.last{
+        border-right: none;
     }
     button{
         width: 100%;
