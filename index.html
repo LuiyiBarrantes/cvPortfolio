@@ -12,6 +12,7 @@
     <meta property="og:url" content="https://ba0e-191-85-47-223.sa.ngrok.io" />
     <meta property="og:image" content="https://ba0e-191-85-47-223.sa.ngrok.io/img/profile.png" />
     <meta property="og:description" content="Este es mi CV digital, aqui verás de manera interactiva mis aptitudes y desempeño en el mundo del desarrollo web." />
+    <script src="https://kit.fontawesome.com/bd0eb781b4.js" crossorigin="anonymous"></script>
 
 </head>
 
@@ -46,10 +47,11 @@
 
         <section class="index__main__section-desplegables">
             <div class="index__main__section__div--desplegable-box">
-                <h3 id="desplegable__datos" class="index__main__section__div--desplegable-title">
+                <button id="desplegable__datos" class="index__main__section__div--desplegable-title">
                     datos personales
-                </h3>
+                </button>
                 <article id="contenido" class="index__main__section__div__article--datos">
+                    <i id="cerrar__desplegable" class="fa-solid fa-xmark"></i>
                     <ul>
                         <li>domicilio: Lorem, ipsum dolor.
                         </li>
@@ -63,19 +65,42 @@
                 </article>
             </div>
             <div class="index__main__section__div--desplegable-box">
-                <h3>
+                <button id="desplegable__datos2" class="index__main__section__div--desplegable-title">
                     formación académica
-                </h3>
-                <article class="index__main__section__div__article--formacion">
-
+                </button>
+                <article id="contenido2" class="index__main__section__div__article--datos">
+                    <i id="cerrar__desplegable2" class="fa-solid fa-xmark"></i>
+                    <ul>
+                        <li>IFLQ - Instalacion de paneles solares y termosolares - 2019 
+                        </li>
+                        <li>
+                            UTN-Edesur - Electricidad Domicliaria e Industrial - 2020-2022
+                        </li>
+                        <li>
+                            Argentina Programa - #SeProgramar - 2022-2023
+                        </li>
+                    </ul>
                 </article>
             </div>
             <div class="index__main__section__div--desplegable-box">
-                <h3>
+                <button id="desplegable__datos3" class="index__main__section__div--desplegable-title">
                     experiencia laboral
-                </h3>
-                <article class="index__main__section__div__article--experiencia"></article>
+                </button>
+                <article id="contenido3" class="index__main__section__div__article--datos">
+                    <i id="cerrar__desplegable3" class="fa-solid fa-xmark"></i>
+                    <ul>
+                        <li>domicilio: Lorem, ipsum dolor.
+                        </li>
+                        <li>
+                            dni: 123456789
+                        </li>
+                        <li>
+                            correo: Lorem@loremipsum.com
+                        </li>
+                    </ul>
+                </article>
             </div>
+            
         </section>
     </main>
     <script src="./js/app.js"></script>
