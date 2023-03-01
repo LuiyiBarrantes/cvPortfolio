@@ -20,7 +20,6 @@ document.getElementById("cerrar__desplegable").addEventListener('click', ()=>{
     console.log('hice click');
     contenido.style.display = 'none';
 })
-const sentence= document.getElementById('about-title')
 
 comando2.addEventListener('click', ()=>{
     console.log('hice click');
@@ -39,3 +38,5 @@ document.getElementById("cerrar__desplegable3").addEventListener('click', ()=>{
     console.log('hice click');
     contenido3.style.display = 'none';
 })
+
+const sentence= document.getElementById('about-title')
