@@ -15,8 +15,11 @@ const ocultar3 = document.getElementById("cerrar__desplegable3");
 comando.addEventListener('click', ()=>{
     console.log('hice click');
     contenido.style.display = 'flex'
+    contenido2.style.display = 'none';
+    contenido3.style.display = 'none';
+    
 })
-document.getElementById("cerrar__desplegable").addEventListener('click', ()=>{
+ocultar.addEventListener('click', ()=>{
     console.log('hice click');
     contenido.style.display = 'none';
 })
@@ -24,8 +27,11 @@ document.getElementById("cerrar__desplegable").addEventListener('click', ()=>{
 comando2.addEventListener('click', ()=>{
     console.log('hice click');
     contenido2.style.display = 'flex'
+    contenido.style.display = 'none';
+    contenido3.style.display = 'none';
+    
 })
-document.getElementById("cerrar__desplegable2").addEventListener('click', ()=>{
+ocultar2.addEventListener('click', ()=>{
     console.log('hice click');
     contenido2.style.display = 'none';
 })
@@ -33,8 +39,11 @@ document.getElementById("cerrar__desplegable2").addEventListener('click', ()=>{
 comando3.addEventListener('click', ()=>{
     console.log('hice click');
     contenido3.style.display = 'flex'
+    contenido2.style.display = 'none';
+    contenido.style.display = 'none';
+    
 })
-document.getElementById("cerrar__desplegable3").addEventListener('click', ()=>{
+ocultar3.addEventListener('click', ()=>{
     console.log('hice click');
     contenido3.style.display = 'none';
 })
