@@ -1,8 +1,11 @@
 *{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    
 }
 body{
     background-color: rgb(226, 247, 248);
+    margin:0
 }
 ul{
     margin: 0;
@@ -11,17 +14,19 @@ ul{
 .index{
 
 }
-.header{
+.header{    
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     position: relative;
     top: -70px;
+    margin: 0;
+    padding: 0;
 }
 .header__background{
     top: -5px;
     position: relative;
-    width: 104%;
+    width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
 }
 .header__profile-photo-box{
@@ -102,6 +107,9 @@ button{
     padding: 15px;
     text-transform: capitalize;
 }
+button:hover{
+    cursor: pointer;
+}
 article{
     box-shadow: 5px 5px 10px gray;
 }
@@ -110,6 +118,34 @@ article i:hover{
 }
 button:focus i{
     display: none;
+}
+.footer{
+    background-color: rgb(132, 192, 192);
+    margin: 0;
+    padding: 20px;
+}
+.footer__section{
+    display: flex;
+    gap:10px;
+    justify-content: space-evenly;
+    align-content: center;
+    font-size: 24px;
+    flex-wrap: wrap;
+}
+.footer__section p{
+    margin: 0;
+    
+}
+.footer__section a{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+a:link{
+    text-decoration: none;
+}
+a:visited{
+    text-decoration: none;
 }
 @media (min-width: 768px){
     .header{
@@ -152,24 +188,27 @@ button:focus i{
         width: 60%;
         font-size: 18px;
     }
+    .footer{
+    }
 }
 @media (min-width: 1024px){
     .header{
         top: -250px;
     }
     .header__profile-photo-box{
-        width: 15%;
-        top: 70%;
+        width: 13%;
+        top: 75%;
         left: 50px;
     }
     .index__main{
-        position: relative;
-        top: -200px;
+        position: absolut;
+        top: -220px;
         padding: 0;
         display: flex;        
         justify-content: flex-start;
         /* flex-direction: column; */
         flex-wrap: wrap;
+        height: 250px;
     }
     hr{
         display: none;
@@ -218,5 +257,7 @@ button:focus i{
     
         font-size: 24px;
     }
-    
+    .footer{
+        
+    }
 }
